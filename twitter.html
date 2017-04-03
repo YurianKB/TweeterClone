@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Twitter Wanna Be</title>
+  </head>
+  <body>
+    <p id="click" onclick="click()">Contador de Clicks:</p>
+    <h1>Twitter</h1>
+     <textarea id="textoTweet" type="text" style="width:400px;height:80px" value="textoTweet"></textarea>
+     <p>De</p>
+     <input type="text" size="20" id="usuario">
+    <p id="contadorDeTexto" onkeypress="contadorTexto()" maxlength="160">0/140</p>
+    <button onclick="textArea()" type="button">Enviar</button>
+    <hr>
+    <h2>Tweet Stories</h2>
+    <div id="nuevosTweets"></div>
+
+
+    <script type="text/javascript" src="js/twitter.js"></script>
+  </body>
+</html>
